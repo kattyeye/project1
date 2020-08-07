@@ -1,5 +1,5 @@
 nav{
-  display: inline-block;
+  display: flex; justify-content: space-between;
   color: orange;
   padding: 20px;
   list-style: inherit;
@@ -30,7 +30,7 @@ color: orange
 .left {
   margin-left: 50px;
   margin-top: 100px;
-  display: inline-flex;
+  display: block;
   width: 55%;
   padding: 20px;
   float: left;
