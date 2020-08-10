@@ -95,8 +95,7 @@ background: linear-gradient(90deg, rgba(255,0,138,1) 0%, rgba(255,0,0,1) 100%);
 
 }
 .cool-background {
-  display: flex;
-  justify-content: center;
+display: inline-block;
 
 }
 }
@@ -110,8 +109,13 @@ ul hover{
   color: #800000;
 }
 .option2 a {
-  display: 
+  display:
   color: ##FF5733;
+}
+.rec {
+font-weight: lighter;
+  background: rgb(255,0,138);
+background: linear-gradient(90deg, rgba(255,0,138,0.19791666666666663) 0%, rgba(255,0,0,0.18110994397759106) 100%);
 }
 * {
   font-family: 'roboto', sans-serif;
