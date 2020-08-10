@@ -7,8 +7,8 @@ nav{
 .dropdown {
   display: inline-block;
   color: white
-
 }
+
 .navbaroptions {
 color: orange
 inline-block;
@@ -18,14 +18,20 @@ padding: 20px;
 direction: inherit;
 font-family: sans-serif;
 }
+.navbaroptions a {
+  color: #FF5733;
 
+}
+.navbaroptions a: hover{
+color: #A90C0C;
+}
 li{font-style: normal;
 font-weight: bolder;
 font-style: normal;
 font-family: sans-serif;
 width: inherit;
 height: auto;
-color: orange
+color: #FF5733
 }
 .left {
   margin-left: 50px;
@@ -75,46 +81,41 @@ background: linear-gradient(90deg, rgba(255,0,138,1) 0%, rgba(255,0,0,1) 100%);
 
 .threeimage{
   display: inline-block;
-  width: 95%;
+  width: 30%;
   border: 0px;
 }
 .shoepricing{
-  display: table;
-  width: 99%;
+  display: inline-block;
+  width: 30%;
   border:0px;
 }
 .shoepricing{
   display: flex;
-  justify-content: space-between;
+  justify-content:;
 
 }
-.smaller{
-  display: table;
-  width: 25%;
-  float:left;
-  margin-right: 50px;
-}
-.small{
-  display: table;
-  width: 25%;
-  margin-left: 30px;
-}
-.smallest{
-  display: table;
-  width: 25%;
-  float:right;
-  margin-left: 30px;
+.cool-background {
+  display: flex;
+  justify-content: center;
 
+}
 }
 .navbaroptions a {
   margin-left: 10px;
   margin-right: 10px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+}
+ul hover{
+  color: #800000;
 }
 .option2 a {
-  display: inline-block;
-  align-items: flex-end;
+  display: 
+  color: ##FF5733;
 }
 * {
   font-family: 'roboto', sans-serif;
+}
+a hover {
+  color: ;
 }
