@@ -10,3 +10,21 @@ var person = {
   favoriteColor: "blue"
 }
 console.log(person.favoriteColor);
+
+console.log ([99,100,101]
+
+   .length);
+
+   var students = ["Alejandra", "Jesse", "Jessica", "Tamar"];
+   console.log(students[3]);
+   console.log(students[2]);
+   console.log(students[0]);
+
+   var a = 8 * 2
+
+   function sentence () {
+     var speech = sentence ("Howdy ", "folks!");
+     speech = ("Howdy " + "folks!")
+   }
+
+console.log(speech);
