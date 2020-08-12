@@ -3,6 +3,7 @@ nav{
   color: orange;
   padding: 20px;
   list-style: inherit;
+    color: #FF5733;
 }
 .dropdown {
   display: inline-block;
@@ -17,6 +18,7 @@ font-family: sans-serif;
 padding: 20px;
 direction: inherit;
 font-family: sans-serif;
+  color: #FF5733;
 }
 .navbaroptions a {
   color: #FF5733;

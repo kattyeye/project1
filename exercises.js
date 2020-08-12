@@ -4,7 +4,7 @@
 
 
 function addNumbers(numberA, numberB) {
-  console.log(numberA + numberB);
+  return numberA + numberB
 }
 
 var twoPlusTwo = addNumbers(2, 2)
@@ -13,15 +13,16 @@ console.log(twoPlusTwo) // 4
 
 // Exercise 2
 // Write a function called yell that logs out an uppercase version of a string.
-
+var myString = "Hey"
 function yell(ahhh) {
   yell.toUpperCase
 console.log(yell);
 }
+yell(myString)
 
 // Write a function called yell10 that uses your yell function to log out an
 // uppercase version of a string 10 times.
-function yell (ahhh) {
+function yell10(ahhh) {
 yell.toUpperCase
 }
 
