@@ -193,12 +193,17 @@ div.right a{
   border-bottom: 1px dashed;
   border-color: rgb(128,0,0)
 }
-@@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
- {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .cool-background }
 
-}
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.cool-background }
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .cool-background }

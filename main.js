@@ -27,7 +27,7 @@
 //      speech = ("Howdy " + "folks!")
 //    }
 //
-var buyBtn = document.getElementById('buyBtn')
+const buyBtn = document.getElementById('buyBtn')
  var number = 0
 console.log(buyBtn);
   buyBtn.onclick= function (){
@@ -39,12 +39,12 @@ console.log(buyBtn);
   document.getElementById('cart').innerHTML = number
 
     setTimeout (function () {
-      buyBtn.innerHTML = "Buy Now!";
-      buyBtn.style.backgroundColor = "rgb(255, 255, 255)";
-      buyBtn.style.color = "rgba(255, 255, 255, 0)";
+      buyBtn.innerHTML = "BUY NOW!";
+      buyBtn.style.backgroundColor = "white";
+      buyBtn.style.color = "#800000";
       buyBtn.style. border = "2px white solid";
-      buyBtn.style.fontColor = "rgba(255, 255, 255, 0)"})
-  3000
+      },
+  3000)
 }
 var details = document.getElementById('details')
 console.log(details);
