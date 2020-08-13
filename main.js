@@ -38,12 +38,12 @@ console.log(buyBtn);
   number = number +1;
   document.getElementById('cart').innerHTML = number
 
-    function setTimeOut() {
-  buyBtn.style.backgroundColor = "rgb(255, 255, 255)";
-  buyBtn.style.color = "rgba(255, 255, 255, 0)";
-  buyBtn.style. border = "2px white solid";
-  buyBtn.innerHTML = "Buy Now!";
-}
+    setTimeout (function () {
+      buyBtn.innerHTML = "Buy Now!";
+      buyBtn.style.backgroundColor = "rgb(255, 255, 255)";
+      buyBtn.style.color = "rgba(255, 255, 255, 0)";
+      buyBtn.style. border = "2px white solid";
+      buyBtn.style.fontColor = "rgba(255, 255, 255, 0)"})
   3000
 }
 var details = document.getElementById('details')

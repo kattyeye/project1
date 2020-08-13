@@ -9,7 +9,9 @@ nav{
   display: inline-block;
   color: white
 }
-
+div.headerr {
+  font-size: 30px
+}
 .navbaroptions {
 color: orange
 inline-block;
@@ -62,13 +64,15 @@ color: #FF5733
 a:hover {
   color: rgb(128,0,0);
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px;
 }
 
 }
 .details{
   display:inline-block;
-  float: right;
+
 }
 .cool-background{
   display: inline-block;
@@ -77,10 +81,14 @@ background: linear-gradient(90deg, rgba(255,0,138,1) 0%, rgba(255,0,0,1) 100%);
 
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 300;
+  font-weight: 200;
   font-display: swap;
   src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fABc4AMP6lbBP.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+.cool-background button{
+  font-size: 18px;
+
 }
 }
 .shoe1 {
@@ -127,10 +135,11 @@ ul.option2 a:hover{
   color: rgb(128,0,0);
 
 }
-.rec {
+h2.rec {
 font-weight: lighter;
   background: rgb(255,0,138);
 background: linear-gradient(90deg, rgba(255,0,138,0.19791666666666663) 0%, rgba(255,0,0,0.18110994397759106) 100%);
+margin-bottom: 0px;
 }
 * {
   font-family: 'roboto', sans-serif;
@@ -143,9 +152,53 @@ a:activehover {
 ul.detlinks a {
   color: #FF5733;
   display: inline-block;
-  padding: 3px;
+  padding: 5px;
+  margin-left: 0px;
+  text-decoration: none;
+  border-bottom: 2px;
+  border-spacing: 1px;
+  border-color: rgba(241 152 150);
+
 
 }
+ul.detlinks{
+  border-bottom: 1px solid;
+  border-color: rgba(241 152 150);
+  border-spacing: 5px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
 ul.detlinks a:hover {
-  color: rgb(128,0,0)
+  color: rgb(128,0,0);
+
+}
+div.shoetext {
+  display: block;
+  margin-left: 75px;
+}
+ul.navbaroptions a {
+  margin-right: 10px;
+  font-weight: normal;
+}
+ul.option2 a {
+  margin-right: 10px;
+  font-weight: normal;
+}
+.lorempara {
+  border-top: 1px dashed;
+  border-color: rgb(128,0,0)
+}
+div.right a{
+  margin-bottom: 10px;
+  border-bottom: 1px dashed;
+  border-color: rgb(128,0,0)
+}
+@@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+ {
+
 }
