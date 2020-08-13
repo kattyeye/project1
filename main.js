@@ -27,16 +27,29 @@
 //      speech = ("Howdy " + "folks!")
 //    }
 //
+var buyBtn = document.getElementById('buyBtn')
+ var number = 0
+console.log(buyBtn);
+  buyBtn.onclick= function (){
+  buyBtn.style.backgroundColor = "rgba(255, 255, 255, 0)";
+  buyBtn.style.color = 	"rgb(255, 255, 255)";
+  buyBtn.style. border = "2px white solid";
+  buyBtn.innerHTML = "Added to Cart";
+  number = number +1;
+  document.getElementById('cart').innerHTML = number
 
-console.log(document.getElementById('buyBtn'));
-  document.getElementById('buyBtn').onclick= function (){
-  document.getElementById('buyBtn').style.backgroundColor = "rgba(255, 255, 255, 0)";
-  document.getElementById('buyBtn').style.color = "white";
-  document.getElementById('buyBtn').style. border = "2px white solid";
-  document.getElementById('buyBtn').innerHTML = "Added to Cart";
-  document.getElementById('cart').innerHTML;
-  console.log('cart'.length);
-
+    function setTimeOut() {
+  buyBtn.style.backgroundColor = "rgb(255, 255, 255)";
+  buyBtn.style.color = "rgba(255, 255, 255, 0)";
+  buyBtn.style. border = "2px white solid";
+  buyBtn.innerHTML = "Buy Now!";
+}
+  3000
+}
+var details = document.getElementById('details')
+console.log(details);
+details.onclick = function () {
+  details.innerHTML = " Found your perfect shoe yet?"
 }
 
 // var jukeJam = console.log(document.getElementById('shoeimg')

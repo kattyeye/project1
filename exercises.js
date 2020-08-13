@@ -22,16 +22,22 @@ yell(myString)
 
 // Write a function called yell10 that uses your yell function to log out an
 // uppercase version of a string 10 times.
-function yell10(ahhh) {
-yell.toUpperCase
+var times = 10
+function yellTen(words) {
+
 }
+
 
 // Exercise 3
 // Write a function called longest that returns the longest of two input strings
 //or arrays.
-function longest ("abc","abcdefg") {
-  return longest;
-  console.log(longest);
+var myArray = ['squash', 'carrots','zucchini']
+var myOtherArray = ['chicken', 'noodles']
+console.log(myArray.length);
+
+function longest(c,d) {
+  if (c.length > d.length)
+
 }
 
 
