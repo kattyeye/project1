@@ -49,8 +49,10 @@ console.log(buyBtn);
 var details = document.getElementById('details')
 console.log(details);
 details.onclick = function () {
-  details.innerHTML = " Found your perfect shoe yet?"
+  details.innerHTML
 }
+
+
 
 // var jukeJam = console.log(document.getElementById('shoeimg')
 // console.log(document.getElementById('shoeimg'));

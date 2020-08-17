@@ -170,6 +170,9 @@ ul.detlinks{
 }
 ul.detlinks a:hover {
   color: rgb(128,0,0);
+  border-bottom: 1px solid;
+  border-color: rgba(241 152 150);
+  border-spacing: 5px;
 
 }
 div.shoetext {
@@ -179,10 +182,25 @@ div.shoetext {
 ul.navbaroptions a {
   margin-right: 10px;
   font-weight: normal;
+  text-decoration: none;
+}
+.cool-background a {
+  text-decoration: none;
+}
+ul.navbaroptions a:hover {
+  border-bottom: 1px solid;
+  border-color: rgba(241 152 150);
+  border-spacing: 5px;
 }
 ul.option2 a {
   margin-right: 10px;
   font-weight: normal;
+  text-decoration: none;
+}
+ul.option2 a:hover {
+  border-bottom: 1px solid;
+  border-color: rgba(241 152 150);
+  border-spacing: 5px;
 }
 .lorempara {
   border-top: 1px dashed;
